@@ -2,11 +2,11 @@
 """
     Defines the sum_mixed_list function
 """
-from typing import List
+from typing import List, Union
 from functools import reduce
 
 
-def sum_mixed_list(mxd_lst: List[float | int]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
     """
         sum_mixed_list
 
