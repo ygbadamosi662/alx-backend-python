@@ -2,6 +2,7 @@
 """
     Defines the floor function
 """
+import math
 
 
 def floor(n: float) -> int:
@@ -14,4 +15,4 @@ def floor(n: float) -> int:
         Returns:
             int: returns the floor of the number
     """
-    return (n // 1)
+    return math.floor(n)
