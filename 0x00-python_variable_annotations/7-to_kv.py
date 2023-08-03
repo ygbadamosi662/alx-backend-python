@@ -5,7 +5,7 @@
 from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float | int]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
         to_kv: returns a tuple of string as first value and sq if int or
         float as second value.
