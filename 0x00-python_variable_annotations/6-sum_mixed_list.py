@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Defines the sum_list function
+    Defines the sum_mixed_list function
 """
 from typing import List
 from functools import reduce
