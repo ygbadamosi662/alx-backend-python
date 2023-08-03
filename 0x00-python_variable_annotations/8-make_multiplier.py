@@ -2,7 +2,7 @@
 """
     Defines the make_multiplier function
 """
-from _collections_abc import Callable
+from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
