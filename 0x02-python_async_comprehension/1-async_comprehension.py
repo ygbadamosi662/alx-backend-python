@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
     Defines an async async_comprehension function
 """
