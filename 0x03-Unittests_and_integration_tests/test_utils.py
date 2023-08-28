@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    unittest for utils module using parameterized
+    Defines class TestAccessNestedMap
 """
 import unittest
 from unittest.mock import patch
